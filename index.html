@@ -6,61 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./main.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
     <title>Picas y Fijas</title>
 </head>
 <body>
     <header></header>
     <main>
         <h1>PICAS Y FIJAS</h1>
-        <section class="gameContainer">
-            <div class="gameBoard">
-                <section>
-                    <p>Historial de Numeros</p>
-                    <p>Resultado</p>
-                </section>
-                <section>
-                     <div class="historyContainer">
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                     </div>
-                     <div class="resultContainer" >
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                         <p></p>
-                     </div>
-                </section>
-            </div>
-        </section>
-        <section class="instructionContainer">
-            <div class="instructionBoard">
-                <h3></h3>
-                <p>Se va a seleccionar un numero aleatorio de 4 digitos el cual debe ser descubierto por el usuario en menos de 10 intentos.  Tus ayudas seran las picas y fijas.</p>
-                <section class="picasContainer">
-                    <h3>1P</h3>
-                    <p>Pica:</p>
-                    <p>El numero se encuentrea dentro de los 4 digitos, pero en la posicion incorrecta</p>
-                </section>
-                <section class="fijasContainer">
-                    <h3>1F</h3>
-                    <p>Fija:</p>
-                    <p>El numero se encuentrea dentro de los 4 digitos, y en la posicion correcta</p>
-                </section>
-            </div>
+        <section class="generalContainer">
+            <section class="gameContainer">
+                <div class="gameBoard">
+                    <section>
+                        <h3>Historial de Numeros</h3>
+                        <h3>Resultado</h3>
+                    </section>
+                    <section class="gameInformation">
+                        <div class="historyContainer">
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </div>
+                        <div class="resultContainer" >
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </section>
+                    <section class="userInteraction">
+                        <input type="number">
+                        <button>Enviar</button>
+                    </section>
+                </div>
+            </section>
+            <section class="instructionContainer">
+                <div class="instructionBoard">
+                    <h3></h3>
+                    <p>Se va a seleccionar un numero aleatorio de 4 digitos el cual debe ser descubierto por el usuario en menos de 10 intentos.  Tus ayudas seran las picas y fijas.</p>
+                    <section class="picasContainer">
+                        <h3>1P</h3>
+                        <p>Pica:</p>
+                        <p>El numero se encuentrea dentro de los 4 digitos, pero en la posicion incorrecta</p>
+                    </section>
+                    <section class="fijasContainer">
+                        <h3>1F</h3>
+                        <p>Fija:</p>
+                        <p>El numero se encuentrea dentro de los 4 digitos, y en la posicion correcta</p>
+                    </section>
+                </div>
+            </section>
         </section>
     </main>
     <footer></footer>
